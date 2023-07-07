@@ -1,6 +1,6 @@
 {
-    "name": "php-http/socket-client",
-    "description": "Socket client for PHP-HTTP",
+    "name": "plesk/socket-client",
+    "description": "Socket client for PHP-HTTP (Plesk)",
     "license": "MIT",
     "authors": [
         {
