@@ -150,7 +150,7 @@ class Stream implements StreamInterface
      *
      * @return void
      */
-    public function seek(int $offset, int $whence = SEEK_SET): void
+    public function seek($offset, $whence = SEEK_SET): void
     {
         throw new StreamException('This stream is not seekable');
     }
@@ -176,7 +176,7 @@ class Stream implements StreamInterface
     /**
      * {@inheritdoc}
      */
-    public function write(string $string): int
+    public function write($string): int
     {
         throw new StreamException('This stream is not writable');
     }
@@ -194,7 +194,7 @@ class Stream implements StreamInterface
      *
      * @param int<0, max> $length
      */
-    public function read(int $length): string
+    public function read($length): string
     {
         if ($this->isDetached || null === $this->socket) {
             throw new StreamException('Stream is detached');
