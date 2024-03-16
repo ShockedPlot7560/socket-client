@@ -1,6 +1,6 @@
 {
     "name": "shockedplot7560/socket-client",
-    "description": "Socket client for PHP-HTTP (Plesk)",
+    "description": "Socket client for PHP-HTTP",
     "license": "MIT",
     "authors": [
         {
